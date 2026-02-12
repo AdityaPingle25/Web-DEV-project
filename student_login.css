@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #030438;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 1050px;
+    height: 600px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgba(200, 157, 157, 0.1);
+    background: transparent;
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 8px 100px 0 rgba(255, 255, 255, 0.181);
+    text-align: center;
+}
+
+.left-panel {
+    flex: 1;
+    background: url("Login-Page.gif") center/cover;
+    color: rgb(152, 101, 100);
+    padding: 40px;
+    display: flex;
+}
+
+/* RIGHT PANEL */
+
+.right-panel {
+    flex: 1;
+    padding: 60px;
+    background: transparent;    
+}
+
+.right-panel {
+    flex: 1;
+    padding: 60px;
+    background: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.right-panel h1 {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.right-panel p {
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+/* INPUT FIELDS */
+
+input {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #3a3a4f;
+    background: #1c1c34;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7a6cff;
+}
+
+/* PASSWORD BOX */
+
+.password-box {
+    position: relative;
+}
+
+.password-box span {
+    position: absolute;
+    right: 15px;
+    top: 14px;
+    cursor: pointer;
+}
+
+/* FORGOT PASSWORD */
+
+.forgot {
+    font-size: 13px;
+    color: #5b52ae;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* LOGIN BUTTON */  
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #7a6cff;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background: #695bff;
+}

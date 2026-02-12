@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.role-container{
+    text-align: center;
+}
+
+.role-container h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.role-container p{
+    color: #cbd5e1;
+    margin-bottom: 40px;
+}
+
+.role-buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.role-btn{
+    padding: 15px 35px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s ease;
+    
+}
+
+.student{
+    background-color: #5865F2;
+    color: white;
+}
+
+.faculty{
+    border: 1px solid #5865F2;
+    color: #5865F2;
+}
+
+.role-btn:hover{
+    transform: scale(1.05);
+}
+
+.back-link{
+    display: block;
+    margin-top: 30px;
+    color: #94a3b8;
+    text-decoration: none;
+}
